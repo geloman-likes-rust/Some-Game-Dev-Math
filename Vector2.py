@@ -8,6 +8,9 @@ class Vector2:
     def magnitude(self):
         return math.sqrt(self.x * self.x + self.y * self.y)
 
+    def coordinate(self):
+        return [self.x, self.y]
+
     def normalized(self):
         x2 = (self.x / self.magnitude()) * (self.x / self.magnitude())
         y2 = (self.y / self.magnitude()) * (self.y / self.magnitude())
