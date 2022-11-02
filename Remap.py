@@ -6,4 +6,4 @@ def InvLerp(a, b, v):
 
 def Remap(iMin, iMax, oMin, oMax, v):
     t = InvLerp(iMin, iMax, v)
-        return Lerp(oMin, oMax, t)
+    return Lerp(oMin, oMax, t)
